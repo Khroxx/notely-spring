@@ -1,5 +1,5 @@
-/home/khrox/Dokumente/github/backend/java/notely/src/main/java/com/noteapp/notely/NotelyApplication.java
-/home/khrox/Dokumente/github/backend/java/notely/src/main/java/com/noteapp/notely/note/Note.java
-/home/khrox/Dokumente/github/backend/java/notely/src/main/java/com/noteapp/notely/note/NoteController.java
-/home/khrox/Dokumente/github/backend/java/notely/src/main/java/com/noteapp/notely/note/NoteRepository.java
-/home/khrox/Dokumente/github/backend/java/notely/src/main/java/com/noteapp/notely/note/NoteService.java
+/app/src/main/java/com/noteapp/notely/NotelyApplication.java
+/app/src/main/java/com/noteapp/notely/note/Note.java
+/app/src/main/java/com/noteapp/notely/note/NoteController.java
+/app/src/main/java/com/noteapp/notely/note/NoteRepository.java
+/app/src/main/java/com/noteapp/notely/note/NoteService.java

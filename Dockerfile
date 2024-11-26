@@ -4,6 +4,7 @@ WORKDIR /app
 
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
+COPY docker-compose.yaml ./
 
 RUN ./mvnw dependency:go-offline
 
