@@ -1,5 +1,6 @@
 # notely
  backend notely written in java spring boot
+ ### WORK IN PROGRESS
 
 # You need:
 java openjdk 21 <br>

@@ -1,4 +1,5 @@
 /app/src/main/java/com/noteapp/notely/NotelyApplication.java
+/app/src/main/java/com/noteapp/notely/note/CorsConfig.java
 /app/src/main/java/com/noteapp/notely/note/Note.java
 /app/src/main/java/com/noteapp/notely/note/NoteController.java
 /app/src/main/java/com/noteapp/notely/note/NoteRepository.java

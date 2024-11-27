@@ -15,15 +15,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/notes")
 public class NoteController {
-    // private final NoteService noteService;
-
-    // public NoteController(NoteService noteService){
-    //     this.noteService = noteService;
-    // }
     @Autowired
     private NoteService noteService;
 
     @GetMapping
+    // @CrossOrigin(origins = "http://localhost:4000/")
     public List<Note> getAllNotes() {
         return noteService.getAllNotes();
     }
