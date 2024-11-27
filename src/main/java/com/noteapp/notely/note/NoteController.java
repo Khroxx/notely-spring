@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/api/notes")
+@RequestMapping("/api/notes/")
 public class NoteController {
     @Autowired
     private NoteService noteService;
@@ -24,7 +24,7 @@ public class NoteController {
         return noteService.getAllNotes();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("{id}/")
     public Note getNoteById(@PathVariable Long id) {
         return noteService.getNoteById(id);
     }
@@ -34,12 +34,12 @@ public class NoteController {
         return noteService.saveNote(note);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("{id}/")
     public Note updateNote(@PathVariable Long id, @RequestBody Note note) {
         return noteService.updateNote(id, note);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("{id}/")
     public void deleteNoteById(@PathVariable Long id){
         noteService.deleteNoteById(id);
     }
