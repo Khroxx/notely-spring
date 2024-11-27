@@ -19,7 +19,6 @@ public class NoteController {
     private NoteService noteService;
 
     @GetMapping
-    // @CrossOrigin(origins = "http://localhost:4000/")
     public List<Note> getAllNotes() {
         return noteService.getAllNotes();
     }
